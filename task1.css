@@ -59,3 +59,27 @@ footer {
     bottom: 0;
     width: 100%;
 }
+@media (max-width: 978px){
+    
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    
+}
+    .Course{
+        margin: auto;
+    }
+    
+}
+@media (max-width: 500px){
+
+    .Course{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+
+}
