@@ -1,0 +1,139 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: White;
+}
+
+header {
+    background-color: Black;
+    color: White;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: White;
+    color: blue;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    color: Black;
+}
+
+.book {
+    border: 1px solid #ddd;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.book img {
+    max-width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.book h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.book p {
+    margin: 5px 0;
+}
+/* Contact Form Styles */
+.contact-form-container {
+    max-width: 800px; 
+    margin: 40px auto; 
+    padding: 40px; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.contact-form-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-form-container label {
+    display: block; 
+    margin-bottom: 10px; 
+    font-weight: bold; 
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    font-size: 16px; 
+}
+
+.contact-form-container button {
+    display: block; 
+    width: 100%; 
+    padding: 15px; 
+    background-color: #007bff; 
+    color: #fff;
+    border: none; 
+    border-radius: 5px;
+    font-size: 18px; 
+    cursor: pointer; 
+}
+
+.contact-form-container button:hover {
+    background-color: #0056b3; 
+}
+
+#form-message {
+    display: none;
+    margin-top: 20px; 
+    text-align: center;
+    font-size: 16px;
+}
+footer {
+    background-color: Black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: variable;
+    bottom: 0;
+    width: 100%;
+}
+@media (max-width: 978px){
+    
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    
+}
+    .Course{
+        margin: auto;
+    }
+    
+}
+@media (max-width: 500px){
+
+    .Course{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+
+}
+
